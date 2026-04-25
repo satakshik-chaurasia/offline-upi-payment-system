@@ -1,8 +1,19 @@
-# UPI Offline Mesh — Demo
+# Offline UPI Payment Simulation System
 
-A Spring Boot backend that demonstrates **offline UPI payments routed through a Bluetooth-style mesh network**. You're in a basement with zero connectivity. You send your friend ₹500. Your phone encrypts the payment, broadcasts it to nearby phones, and the packet hops device-to-device until *some* phone walks outside, gets 4G, and silently uploads it to this backend. The backend decrypts, deduplicates, and settles.
+A Spring Boot-based backend simulation of offline digital payments inspired by UPI mesh transaction architecture.  
+The system demonstrates secure encrypted transaction routing through nearby devices and ensures duplicate-safe settlement once connectivity is restored.
 
-This repo is the **server side** of that system, plus a software simulator of the mesh so you can demo the whole flow on a single laptop without any real Bluetooth hardware.
+## Features
+
+- Offline mesh-based transaction routing simulation
+- Hybrid encryption using RSA + AES-GCM
+- Idempotent transaction settlement pipeline
+- Replay attack protection using nonce and timestamp validation
+- Transaction success logging for audit traceability
+
+## Tech Stack
+
+Java, Spring Boot, Maven, REST APIs, H2 Database
 
 ---
 
