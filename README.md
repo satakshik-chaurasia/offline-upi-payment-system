@@ -20,9 +20,13 @@ Java, Spring Boot, Maven, REST APIs, H2 Database
 ```bash
 git clone https://github.com/satakshik-chaurasia/offline-upi-payment-system.git
 cd offline-upi-payment-system
-.\mvnw.cmd spring-boot:run
+```cmd
+mvnw.cmd spring-boot:run
+```
 
+The first run downloads Maven (~10 MB) and all dependencies (~80 MB) — give it a couple of minutes.
 ---
+
 
 ## Table of Contents
 
