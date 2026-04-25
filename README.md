@@ -15,6 +15,13 @@ The system demonstrates secure encrypted transaction routing through nearby devi
 
 Java, Spring Boot, Maven, REST APIs, H2 Database
 
+## How to Run the Project
+
+```bash
+git clone https://github.com/satakshik-chaurasia/offline-upi-payment-system.git
+cd offline-upi-payment-system
+.\mvnw.cmd spring-boot:run
+
 ---
 
 ## Table of Contents
